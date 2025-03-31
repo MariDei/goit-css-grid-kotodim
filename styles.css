@@ -45,6 +45,14 @@
   grid-template-columns: 1fr;
 }
 
+.post-img {
+  transition: transform 0.3s;
+}
+
+.post-img:hover {
+  transform: scale(1.1);
+}
+
 @media (min-width: 768px) {
   .posts {
     gap: 24px;
